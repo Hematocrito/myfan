@@ -1,7 +1,7 @@
 import Router from "next/router";
 
-export default function DesplgMobile() {
 
+export default function DesplgMobile() {
     return(
         <ul className="list-none
         px-6
@@ -13,5 +13,4 @@ export default function DesplgMobile() {
             <li><a className="ml-3" href="/es">ESPAÑOL</a></li>
         </ul>
     );
-
 }
